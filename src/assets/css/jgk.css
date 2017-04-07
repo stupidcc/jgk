@@ -1,0 +1,35 @@
+/*html{font-size: calc(100vw/3.75);}*/
+[v-cloak]{display:none}
+*{margin:0;padding:0;box-sizing: border-box}
+.fl{float:left}
+.fr{float:right}
+.forlve{overflow: hidden;white-space: nowrap;text-overflow: ellipsis}
+a{text-decoration: none;color:#000}
+ul li,ul ol{list-style: none}
+.clearfix:after{content:" ";display:block;clear:both;height:0;visibility: hidden;line-height: 0;font-size: 0}
+.clearfix{zoom:1}
+.line3{width:10rem;height:3px;background-color: #ececec}
+.bottomLine{border-bottom:1px solid #ececec}
+.container{width:10rem;overflow: auto;background-color: #ececec;}
+@media screen and (max-width:321px){
+    .view{font-size:15px}
+}
+@media screen and (min-width:321px) and (max-width:400px){
+    .view{font-size:16px}
+}
+@media screen and (min-width:400px){
+    .view{font-size:18px}
+}
+
+@font-face {
+  font-family: 'fzlantingheis-r-gbregular';
+  src: url('../fonts/_-webfont.eot');
+  src: url('../fonts/_-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/_-webfont.woff2') format('woff2'),
+  url('../fonts/_-webfont.woff') format('woff'),
+  url('../fonts/_-webfont.ttf') format('truetype'),
+  url('../fonts/_-webfont.svg#fzlantingheis-r-gbregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}

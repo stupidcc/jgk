@@ -1,0 +1,22 @@
+{
+//  "presets": [
+//    ["env", { "modules": false }],
+//    "stage-2"
+//  ],
+  "presets": [
+    ["es2015", { "modules": false }]
+  ],
+  "plugins": [["component", [
+    {
+      "libraryName": "mint-ui",
+      "style": true
+    }
+  ]]],
+  "comments": false,
+  "env": {
+    "test": {
+      "presets": ["env", "stage-2"],
+      "plugins": [ "istanbul" ]
+    }
+  }
+}
